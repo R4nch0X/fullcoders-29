@@ -16,6 +16,7 @@ Algoritmo sumerMercado
 			Leer porcentajeDescuento
 
 
+            //comentario
 			precioFial <- precioFial + precioProducto
 
 			precioConDescuento <- precioProducto - ( precioProducto * (porcentajeDescuento / 100))
