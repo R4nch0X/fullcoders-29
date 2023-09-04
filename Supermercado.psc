@@ -2,6 +2,7 @@ Algoritmo sumerMercado
 	//
 	Definir precioProducto, precioFinalConDescunto, porcentajeDescuento, precioFial Como Real
 
+    // verificar el valor inicial de las variables
 
 	Escribir "ingrese precio = 0 para terminar"
 	Repetir
@@ -22,7 +23,7 @@ Algoritmo sumerMercado
 			precioConDescuento <- precioProducto - ( precioProducto * (porcentajeDescuento / 100))
 
 			// otra opcion de calculo del precio con descuento
-			// precioConDescuento <- precioProducto * (1-(porcentajedescuento / 100))
+		    precioConDescuento <- precioProducto * (1-(porcentajedescuento / 100))
 
 			Escribir  "condescuento] ", precioConDescuento
 
